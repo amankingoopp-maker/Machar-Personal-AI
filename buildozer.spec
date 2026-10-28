@@ -3,12 +3,12 @@
 
 title = Machar Personal AI
 package.name = macharpersonalai
-package.domain = com.machar.ai
+package.domain = com.machar
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,json,txt
+source.include_exts = py,png,jpg,kv,atlas,json,txt,ttf,ogg,wav
 
-version = 0.1
+version = 1.0
 
 requirements = python3,kivy
 
@@ -20,6 +20,8 @@ android.permissions = INTERNET,RECORD_AUDIO
 android.api = 35
 android.minapi = 23
 android.archs = arm64-v8a
+
+android.accept_sdk_license = True
 
 [buildozer]
 
